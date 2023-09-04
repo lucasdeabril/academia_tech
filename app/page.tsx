@@ -4,12 +4,15 @@ export default function Home() {
   return (
     <main>
       <header>
-        <img src="" alt="academia tech" />
-        <input type="button" value={'Seja franqueado'} />
-        <input type="button" value={'Academias'} />
-        <input type="button" value={'Espaço do cliente'} />
-        <input type="button" value={'Começar agora'} />
-        <input type="button" value={'Menu'} />
+        <h1>Academia Tech</h1>
+        <div>
+          <input type="button" value={'Seja franqueado'} />
+          <input type="button" value={'Academias'} />
+          <input type="button" value={'Espaço do cliente'} />
+          <input type="button" value={'Começar agora'} />
+          <input type="button" value={'Menu'} />
+        </div>
+        
       </header>
 
       <div>
@@ -84,7 +87,7 @@ export default function Home() {
           <li>Corporativo</li>
         </ul>
         <hr />
-        <h2>considerações finais</h2>
+        <h1>*Consulte as condições promocionais e regulamentos na página: smartfit.com.br/contratos</h1>
       </footer>
 
 

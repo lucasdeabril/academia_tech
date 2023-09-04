@@ -25,3 +25,9 @@ body {
     )
     rgb(var(--background-start-rgb));
 }
+
+header{
+  color: black;
+  display: flex;
+  background-color: white;
+}
