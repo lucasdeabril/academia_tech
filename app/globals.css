@@ -25,9 +25,32 @@ body {
     )
     rgb(var(--background-start-rgb));
 }
+.comecar{
+  padding: 0px 20px;
+  border-radius: 20px;
+  background-color: rgb(212, 23, 23);
+  color: white;
+  display: flex;
+  align-items: center;
+}
 
 header{
+  margin: auto;
+  width: 100%;
+  height: 90px;
+  padding: 0% 5% ;
   color: black;
   display: flex;
+  justify-content: space-between;
+  align-items: center;
   background-color: white;
+  
+}
+.sub-header{
+  width: 70%;
+  height: 40px;
+}
+.spacearound{
+    display: flex;
+    justify-content: space-around;
 }

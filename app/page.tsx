@@ -5,11 +5,11 @@ export default function Home() {
     <main>
       <header>
         <h1>Academia Tech</h1>
-        <div>
+        <div className='sub-header flex spacearound'>
           <input type="button" value={'Seja franqueado'} />
           <input type="button" value={'Academias'} />
           <input type="button" value={'Espaço do cliente'} />
-          <input type="button" value={'Começar agora'} />
+          <input type="button" className='comecar' value={'Começar agora'} />
           <input type="button" value={'Menu'} />
         </div>
         
