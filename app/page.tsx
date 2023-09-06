@@ -1,4 +1,5 @@
 import Image from 'next/image'
+import banner from './fotos/banner.jpg'
 
 export default function Home() {
   return (
@@ -15,13 +16,13 @@ export default function Home() {
         
       </header>
 
-      <div>
-        banner
+      <div className='banner'>
+        <Image src={banner} alt='banner' className='propaganda' width={800} height={600} />
       </div>
       
-      <div>
-        <h2>Encontre a academia mais proxima</h2>
-        <div>buscador</div>
+      <div className='buscador flex-column space-btw width'>
+        <h2 className='margin-auto'>Encontre a academia mais proxima</h2>
+        <div className='margin-auto search'>Escolher academia</div>
       </div>
 
       <div>
