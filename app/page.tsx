@@ -22,7 +22,7 @@ export default function Home() {
       
       <div className='buscador flex-column space-btw width'>
         <h2 className='margin-auto'>Encontre a academia mais proxima</h2>
-        <div className='margin-auto search bg-predio'>Escolher academia</div>
+        <div className='margin-auto search bg-predio'><p className='pesquisa'>Escolher academia</p></div>
       </div>
 
       <div>
