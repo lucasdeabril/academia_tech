@@ -25,11 +25,70 @@ export default function Home() {
         <div className='margin-auto search bg-predio'><p className='pesquisa'>Escolher academia</p></div>
       </div>
 
-      <div>
-        <h2>Venha treinar na maior rede de academias da América Latina</h2>
+      <div className='planos flex-column width'>
+        <h1>Venha treinar na maior rede de academias da América Latina</h1>
         <h3>Os melhores equipamentos e infraestrutura com mensalidades acessíveis.</h3>
-        <div>
-          {/* vantagens em forme de lista */}
+        <div className='planos-cont width bege' >
+          <ul className='container-beneficio flex-row'>
+            <li className='li-beneficios'>
+              <div className='div-plano'></div>
+              <ul className='beneficios'>
+                <li className='hr'>Área de musculação e aeróbicos</li>
+                <li className='hr'>Smart Fit Go (treinos online)</li>
+                <li className='hr'>Smart Fit App</li>
+                <li className='hr'>Acesso ilimitado a +1.000 academias da rede</li>
+                <li className='hr'>Leve amigos para treinar com você</li>
+                <li className='hr'>Cadeira de massagem</li>
+              </ul>
+              <div></div>
+            </li>
+            <li className='li-vantagem'>
+              <div className='div-plano'>
+                <p className='h1'>Plano Smart</p> 
+                <p className='p'>Treine quando quiser na academia de sua preferência.</p>
+              </div>
+              <ul>
+                <li className='hr'>v</li>
+                <li className='hr'>v</li>
+                <li className='hr'>v</li>
+                <li className='hr'>v</li>
+                <li className='hr'>v</li>
+                <li className='hr'>v</li>
+              </ul>
+              <div></div>
+            </li>
+            <li className='li-vantagem'>
+              <div className='div-plano'>
+                <h2 className='h1'>Plano Fit</h2>
+                <p className='p'>Treine o quanto quiser na sua academia e pague menos por isso.</p>
+              </div>
+              <ul>
+                <li className='hr'>v</li>
+                <li className='hr'>v</li>
+                <li className='hr'>v</li>
+                <li className='hr'>v</li>
+                <li className='hr'>v</li>
+                <li className='hr'>v</li>
+              </ul>
+              <div></div>
+            </li>
+            <li className='li-vantagem'>
+              <div className='div-plano'>
+                <h2 className='h1'>Plano Black</h2>
+                <p className='p'>Treine em mais de 1.000 academias Smart Fit!</p>
+              </div>
+              <ul>
+                <li className='hr'>v</li>
+                <li className='hr'>v</li>
+                <li className='hr'>v</li>
+                <li className='hr'>v</li>
+                <li className='hr'>v</li>
+                <li className='hr'>v</li>
+              </ul>
+              <div></div>
+            </li>
+            
+          </ul>
         </div>
       </div>
 
