@@ -28,7 +28,7 @@ export default function Home() {
       <div className='planos flex-column width'>
         <h1>Venha treinar na maior rede de academias da América Latina</h1>
         <h3>Os melhores equipamentos e infraestrutura com mensalidades acessíveis.</h3>
-        <div className='planos-cont width bege' >
+        <div className='planos-cont width ' >
           <ul className='container-beneficio flex-row'>
             <li className='li-beneficios'>
               <div className='div-plano'></div>
@@ -48,12 +48,12 @@ export default function Home() {
                 <p className='p'>Treine quando quiser na academia de sua preferência.</p>
               </div>
               <ul>
-                <li className='hr'>v</li>
-                <li className='hr'>v</li>
-                <li className='hr'>v</li>
-                <li className='hr'>v</li>
-                <li className='hr'>v</li>
-                <li className='hr'>v</li>
+                <li className='hr center'>v</li>
+                <li className='hr center'>v</li>
+                <li className='hr center'>v</li>
+                <li className='hr center'>v</li>
+                <li className='hr center'>v</li>
+                <li className='hr center'>v</li>
               </ul>
               <div></div>
             </li>
@@ -63,27 +63,28 @@ export default function Home() {
                 <p className='p'>Treine o quanto quiser na sua academia e pague menos por isso.</p>
               </div>
               <ul>
-                <li className='hr'>v</li>
-                <li className='hr'>v</li>
-                <li className='hr'>v</li>
-                <li className='hr'>v</li>
-                <li className='hr'>v</li>
-                <li className='hr'>v</li>
+                <li className='hr center'>v</li>
+                <li className='hr center'>v</li>
+                <li className='hr center'>v</li>
+                <li className='hr center'>v</li>
+                <li className='hr center'>v</li>
+                <li className='hr center'>v</li>
               </ul>
               <div></div>
             </li>
-            <li className='li-vantagem'>
+            <li className='li-vantagem destaque'>
               <div className='div-plano'>
                 <h2 className='h1'>Plano Black</h2>
                 <p className='p'>Treine em mais de 1.000 academias Smart Fit!</p>
+                <span className='flag'>O mais <b>vantajoso</b></span>
               </div>
               <ul>
-                <li className='hr'>v</li>
-                <li className='hr'>v</li>
-                <li className='hr'>v</li>
-                <li className='hr'>v</li>
-                <li className='hr'>v</li>
-                <li className='hr'>v</li>
+                <li className='hr center'>v</li>
+                <li className='hr center'>v</li>
+                <li className='hr center'>v</li>
+                <li className='hr center'>v</li>
+                <li className='hr center'>v</li>
+                <li className='hr center'>v</li>
               </ul>
               <div></div>
             </li>

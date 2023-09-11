@@ -54,11 +54,39 @@ main{
   border-radius: 10px;
 }
 .h1{
-  font-size: 24px;
+  font-size: 22px;
 }
 .p{
   font-size: 10px;
   width: 80%;
+}
+.center{
+  display: flex;
+  align-items: center;
+  justify-content: center;
+}
+.destaque{
+  border: 2px solid #ffad12;
+  border-radius: 10px;
+}
+.flag{
+  position: absolute;
+  top: -24px;
+  left: -5px;
+  display: block;
+  background-color: #ffad12;
+  padding: 2px 4px;
+  z-index: 5;
+}
+.flag::after{
+  content: "";
+    position: absolute;
+    left: 0;
+    bottom: -5px;
+    width: 0;
+    height: 0;
+    border-bottom: 5px solid transparent;
+    border-right: 5px solid #cc920e;
 }
 
 body {
@@ -143,6 +171,7 @@ header{
   justify-content: center;
   height: 100px;
   align-items: center;
+  position: relative;
 }
 li{
   padding: 15px;
@@ -160,8 +189,9 @@ li{
 .li-vantagem{
   width: 15%;
   padding:0% ;
+  align-items: center;
 }
 .hr{
-  border-top: 2px solid black ;
+  border-top: 1px solid black ;
   width: 100%;
 }
