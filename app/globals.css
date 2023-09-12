@@ -195,3 +195,14 @@ li{
   border-top: 1px solid black ;
   width: 100%;
 }
+.ulfooter{
+  min-height: 135px;
+}
+.miudo{
+  font-size: 12px;
+  color: #656565;
+  text-align: center;
+}
+.prop{
+  height: 100px;
+}

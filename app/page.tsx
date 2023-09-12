@@ -40,11 +40,11 @@ export default function Home() {
                 <li className='hr'>Leve amigos para treinar com você</li>
                 <li className='hr'>Cadeira de massagem</li>
               </ul>
-              <div></div>
+              <div className='ulfooter flex-column'><p>Confira as condições da academia escolhida</p></div>
             </li>
             <li className='li-vantagem'>
               <div className='div-plano'>
-                <p className='h1'>Plano Smart</p> 
+                <p className='h1'>Plano <b>Smart</b></p> 
                 <p className='p'>Treine quando quiser na academia de sua preferência.</p>
               </div>
               <ul>
@@ -55,11 +55,17 @@ export default function Home() {
                 <li className='hr center'>v</li>
                 <li className='hr center'>v</li>
               </ul>
-              <div></div>
+              <div className='ulfooter flex-column'>
+                <p>A PARTIR DE</p>
+                <div className='planos-preço'>
+                  <p><b>R$ 9,90</b>/1º mês*</p>
+                </div>
+                <p className='miudo'>Demais meses a partir de: R$ 89,90</p>
+              </div>
             </li>
             <li className='li-vantagem'>
               <div className='div-plano'>
-                <h2 className='h1'>Plano Fit</h2>
+                <h2 className='h1'>Plano <b>Fit</b></h2>
                 <p className='p'>Treine o quanto quiser na sua academia e pague menos por isso.</p>
               </div>
               <ul>
@@ -70,11 +76,18 @@ export default function Home() {
                 <li className='hr center'>v</li>
                 <li className='hr center'>v</li>
               </ul>
-              <div></div>
+              <div className='ulfooter flex-column'>
+                <p>A PARTIR DE</p>
+                <div className='planos-preço'>
+                  <p><b>R$ 9,90</b>/1º mês*</p>
+                </div>
+                <p className='miudo'>Demais meses a partir de: R$ 99,90</p>
+                <p className='miudo'>12 meses de fidelidade</p>
+              </div>
             </li>
             <li className='li-vantagem destaque'>
               <div className='div-plano'>
-                <h2 className='h1'>Plano Black</h2>
+                <h2 className='h1'>Plano <b> </b></h2>
                 <p className='p'>Treine em mais de 1.000 academias Smart Fit!</p>
                 <span className='flag'>O mais <b>vantajoso</b></span>
               </div>
@@ -86,16 +99,23 @@ export default function Home() {
                 <li className='hr center'>v</li>
                 <li className='hr center'>v</li>
               </ul>
-              <div></div>
+              <div className='ulfooter flex-column'>
+                <p>A PARTIR DE</p>
+                <div className='planos-preço'>
+                  <p><b>R$ 9,90</b>/1º mês*</p>
+                </div>
+                <p className='miudo'>Demais meses a partir de: R$ 99,90</p>
+                <p className='miudo'>12 meses de fidelidade</p>
+              </div>
             </li>
             
           </ul>
         </div>
       </div>
 
-      <div>
-        <input type="button" value="começar agora" />
-        <h3>Você será encaminhado(a) para o processo de escolha e contratação do seu plano Smart Fit.</h3>
+      <div className='width flex-column prop'>
+        <input type="button" className='comecar margin-auto' value="começar agora" />
+        <h3 className='margin-auto'>Você será encaminhado(a) para o processo de escolha e contratação do seu plano Smart Fit.</h3>
       </div>
 
       <div>
