@@ -10,7 +10,7 @@ export default function Home() {
           <input type="button" value={'Seja franqueado'} />
           <input type="button" value={'Academias'} />
           <input type="button" value={'Espaço do cliente'} />
-          <input type="button" className='comecar' value={'Começar agora'} />
+          <a href="./comecar"><input type="button" className='comecar' value={'Começar agora'} /></a>
           <input type="button" value={'Menu'} />
         </div>
         
@@ -118,57 +118,47 @@ export default function Home() {
         <h3 className='margin-auto'>Você será encaminhado(a) para o processo de escolha e contratação do seu plano Smart Fit.</h3>
       </div>
 
-      <div>
-        <h2>Experiência Smart Fit</h2>
-        <div>
-          {/* três banners de vantagens */}
+      <footer className=''>
+        <div className='footer-list'>
+          <h1 className='margin-auto'>Consulte as condições promocionais e regulamentos na página: smartfit.com.br/contratos</h1>
+          <hr/>
+          <ul className='flex-row flex-start ul-footer'>
+            <li>
+              <ul>
+                <li><b className='h1'>Institucional</b></li>
+                <li>Sobre</li>
+                <li>Conceito</li>
+                <li>Investidores</li>
+                <li>Central de Ajuda</li>
+                <li>Fale Conosco</li>
+                <li>Edital Smart Fit</li>
+                <li>Aviso de Privacidade</li>
+              </ul>
+            </li>
+            <li>
+              <ul>
+                <li><b className='h1'>Planos</b></li>
+                <li>Planos</li>
+                <li>Contratos</li>
+                <li>Planos corporativos</li>
+                <li>Smart Fit Supps</li>
+              </ul>
+            </li>
+            <li>
+              <ul>
+                <li><b className='h1'>Corporativo</b></li>
+                <li>Imprensa</li>
+                <li>Quero ser um franqueado</li>
+                <li>Divulgue sua marca</li>
+                <li>Indique um ponto</li>
+                <li>Trabalhe Conosco</li>
+                <li>Graduação Ed. Física EAD</li>
+              </ul>
+            </li>
+          </ul>
         </div>
-        <h2>Aulas e treinos exclusivos</h2>
-        <div>
-          {/* Quatro banners de aulas exclusivas */}
-        </div>
-      </div>
-
-      <div>
-        <div>
-          <h2>Conheça nosso app</h2>
-        </div>
-      </div>
-
-      <div>
-        <h2>Quer acelerar os resultados?</h2>
-        {/* banners de produtos adicionais */}
-      </div>
-      
-      <div>
-        <h3>Receba novidades e promoções exclusivas da Smart Fit</h3>
-        <input type="email" />
-        <input type="submit" />
-      </div>
-
-      <footer>
-        <h1>Academia Tech</h1>
-        <hr />
-        <h2>Siga a Academia Tech</h2>
-        <img src="" alt="" />
-        <img src="" alt="" />
-        <img src="" alt="" />
-        <img src="" alt="" />
-        <img src="" alt="" />
-        <img src="" alt="" />
-        <img src="" alt="" />
-        <hr />
-        <ul>
-          <li>Institucional</li>
-        </ul>
-        <ul>
-          <li>Planos</li>
-        </ul>
-        <ul>
-          <li>Corporativo</li>
-        </ul>
-        <hr />
-        <h1>*Consulte as condições promocionais e regulamentos na página: smartfit.com.br/contratos</h1>
+          
+        
       </footer>
 
 

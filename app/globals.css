@@ -25,6 +25,12 @@ main{
   background-color: white;
   color: black;
 }
+a{
+  margin: 0%;
+  padding: 0%;
+  height: fit-content;
+  width: fit-content;
+}
 .flex-column{
   display: flex;
   flex-direction: column;
@@ -80,13 +86,16 @@ main{
 }
 .flag::after{
   content: "";
-    position: absolute;
-    left: 0;
-    bottom: -5px;
-    width: 0;
-    height: 0;
-    border-bottom: 5px solid transparent;
-    border-right: 5px solid #cc920e;
+  position: absolute;
+  left: 0;
+  bottom: -5px;
+  width: 0;
+  height: 0;
+  border-bottom: 5px solid transparent;
+  border-right: 5px solid #cc920e;
+}
+input{
+  cursor: pointer;
 }
 
 body {
@@ -105,6 +114,7 @@ body {
   color: white;
   display: flex;
   align-items: center;
+  cursor: pointer;
 }
 
 header{
@@ -121,7 +131,8 @@ header{
 }
 .sub-header{
   width: 70%;
-  height: 40px;
+  height: fit-content;
+  align-items: baseline;
 }
 .spacearound{
     display: flex;
@@ -205,4 +216,36 @@ li{
 }
 .prop{
   height: 100px;
+}
+footer{
+  width: 100%;
+  height: 200px;
+  background-color: black;
+  color: white;
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+
+}
+.footer-list{
+  width: 100%;
+  height: 200px;
+  align-items: center;
+  text-align: center;
+}
+.footer-list h1{
+  margin: 20px 0px;
+}
+.flex-start{
+  align-items: flex-start;
+}
+.ul-footer{
+  text-align: left;
+}
+.ul-footer li ul{
+  margin: 0px 30px;
+}
+.ul-footer li ul li{
+  margin: 10px ;
+  padding: 0%;
 }
