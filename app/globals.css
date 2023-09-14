@@ -249,3 +249,22 @@ footer{
   margin: 10px ;
   padding: 0%;
 }
+.inv{
+  visibility: hidden;
+}
+.corpo{
+  background-color: white;
+  color: black;
+}
+
+/* seção começar da página */
+
+.h1comecar{
+  margin-left: 100px;
+  height: fit-content;
+}
+.cep{
+  height: fit-content;
+  margin: 30px 0px;
+  border: 2px solid black;
+}
