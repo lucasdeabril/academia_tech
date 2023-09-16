@@ -24,6 +24,11 @@ export default function Home() {
       <div className='cep width'>
         <input type="text" placeholder='Insira seu cep' />
       </div>
+
+      <div>
+        <h1>Academias</h1>
+        <div className='conteiner-academias'></div>
+      </div>
     </main>
     )
 }
