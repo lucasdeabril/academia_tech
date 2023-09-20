@@ -27,7 +27,11 @@ export default function Home() {
 
       <div>
         <h1>Academias</h1>
-        <div className='conteiner-academias'></div>
+        <div className='conteiner-academias'>
+          <div className='academia-banner'></div>
+          <div className='academia-banner'></div>
+          <div className='academia-banner'></div>
+        </div>
       </div>
     </main>
     )
